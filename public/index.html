@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96137649-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-96137649-2');
+    </script>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Tekika is your access onto our metaverse - an open world environment with the sole goal of revitalizing your creativity - collect, engage in economic ventures, participate in group endeavours to build and explore, govern, and play on user-generated experiences."
+    />
+    <!-- <link rel="image_src" href="%PUBLIC_URL%/images/Server_Banner.png" /> -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mda.com/">
+    <meta property="og:title" content="MDA">
+    <meta property="og:description" content="MDA is your access onto our metaverse - an open world environment with the sole goal of revitalizing your creativity - collect, engage in economic ventures, participate in a group endeavours to build and explore, govern, and play on user-generated experiences.">
+    
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>MDA</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+   <div class="fl-page" id="butter">
+        <section id="header-top">
+            <header>
+                <div class="main-nav">
+                    <ul>
+                        <div class="menu-1">
+                            <li><a href="/">HOME</a></li>
+                            
+                            
+                        </div>
+                        
+                        <div class="menu-2">
+                            <li><a href="#roadmap">ROADMAP</a></li>
+                            <li><a href="#team">TEAM</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </header>
+            <div class="mobile-menu">
+                <!-- <div class="logo-mobile">
+                    <img src="images/logo.svg">
+                </div> -->
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <!-- <img src="images/logo.svg"> -->
+                        <li><a href="/" onclick="closeNav()">HOME</a></li>
+                        
+                        <li><a href="#roadmap" onclick="closeNav()">ROADMAP</a></li>
+                        <li><a href="#team" onclick="closeNav()">TEAM</a></li>
+                        <li><a href="#faq" onclick="closeNav()">FAQ</a></li>
+                    </div>
+                </div>
+                <span class="open_nav" onclick="openNav()">
+                    <img src="images/bars1.svg">
+                </span>
+            </div>
+        </section>
+
+        <section id="tekika_row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-auto" data-aos="fade-right" data-aos-delay="200">
+                        <div class="tekika-col">
+                            <h2><span>MUTANT DOG ACADEMY</span></h2>
+                           
+                            <p class="p-20">MDA is your access onto our metaverse - an open world environment with the sole goal of 
+                                revitalizing your creativity - collect, engage in economic ventures, participate in a 
+                                group endeavours to build and explore, govern, and play on user-generated experiences.
+                            </p>
+                            <p class="p-20">
+                                Get your entry onto the metaverse by securing a MDA.</p>
+                            <a href="http://discord.gg/2jNyswhqZR" class="btn-pink" target="_blank"><span>Join Our Discord</span></a>
+                        </div>
+                    </div>
+                    
+                        
+                       
+                </div>
+            </div>
+        </section>
+
+        <section id="tekika_slider" data-aos="fade-in" data-aos-delay="200">
+            <div class="tekika-slides owl-carousel owl-theme">
+                <div class="tekika-slider-img">
+                    <img src="images/img2.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img3.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img1.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img4.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img1.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img3.jpeg" alt="">
+                </div>
+                <div class="tekika-slider-img">
+                    <img src="images/img4.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <div class="container">
+                <div class="roadmap-content">
+                    <h2 data-aos="fade-right" data-aos-delay="200"><span>Roadmap</span></h2>
+                    <p class="p-22 text-center" data-aos="fade-right" data-aos-delay="400">This roadmap highlights our aims, objectives, proposals and sacrifices intended to elucidate our personal envisage.</p>
+                </div>
+                <div class="roadmap-parent-col">
+                    <div class="roadmap-left" data-aos="fade-right" data-aos-delay="200">
+                        <div class="roadmap-first-col">
+                            <div class="number-title">
+                               
+                                <h3>Launch Roadmap</h3>
+                            </div>
+                            
+                            <!-- <p class="p-14">
+                                <h3>Phase 1</h3>
+                                Post-Mint
+                                Phase 1
+                                Listing on Magiceden Secondary Marketplace immediately after launch.
+                                
+                                
+                               </p>
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="square"></span> -->
+                        </div>
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.01</span>
+                                <h3>Phase 1</h3>
+                            </div>
+                            <p class="p-14">
+                                Post-Mint
+                                Phase 1
+                                Listing on Magiceden Secondary Marketplace immediately after launch.
+                                </p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.02</span>
+                                <h3>Phase 2</h3>
+                            </div>
+                            <p class="p-14">
+                                DAO system created and integrated into the Discord server for Verified MDA
+                                holders. Alpha DAO calls will be made by within the community for good
+                                mints coming up on the Solana Blockchain network.</p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.03</span>
+                                <h3>Phase 3</h3>
+                            </div>
+                            <p class="p-14">
+                                Phase 3
+                        100% Royalty Bonus will be given back to all MDA holders that don't have it
+                        listed on Marketplace. Daily Snapshots will be taken across the week, to
+                        counteract Market manipulation against dump and pump.
+                        N.T 20% Artist Tax on Secondary Market, List high and don't paperhands..</p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.04</span>
+                                <h3>Phase 4</h3>
+                            </div>
+                            <p class="p-14">
+                                Phase 4
+                    Fully upgraded website launch with Launchpad integration to assist/collabo
+                     with other project launching on the Solana network. Derivative from launched
+                    projects will be airdrop to MDA holders..</p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                        <div class="number-title">
+                          
+                        </div>
+
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.05</span>
+                                <h3>Phase 5</h3>
+                            </div>
+                            <p class="p-14">
+                                Phase 5
+                                Launch of Mutant Dogs Academy Marketplace. This is one big ambition we
+                                have in place for our esteem NFT. This gives more benefits to holders and
+                                more future airdrop to our community. More details will be released on what
+                                all MDA holders set to get from this Marketplace.</p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                        <div class="number-title">
+                          
+                        </div>
+
+                        <div class="roadmap-first-col roadmap-2" data-aos="fade-right" data-aos-delay="200">
+                            <div class="number-title">
+                                <span>.06</span>
+                                <h3>Phase 6</h3>
+                            </div>
+                            <p class="p-14">
+                                Phase 6
+                                MDA token... But not launched until after GEN2 !!THE AWAKEN!!</p>
+                            <span class="line-2"></span>
+                            <span class="square"></span>
+                        </div>
+                     </div>
+                    </div>
+                    <div class="roadmap-right">
+                        <lottie-player id="firstLottie" src="https://assets4.lottiefiles.com/packages/lf20_kbjf34bc.json"></lottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <div class="who-we-are-first">
+                    <div class="who-we-are-content">
+                        <h2 data-aos="fade-right" data-aos-delay="200"><span>Who are we?</span></h2>
+                        <p data-aos="fade-right" data-aos-delay="200">MEET THE Team</p>
+                    </div>
+                    <div class="who-we-are-text" data-aos="fade-right" data-aos-delay="400">
+                        <p class="p-18">Hey! Mecco and Lass are two determined and passionate blockchain enthusiasts. We have proficiency in a multitude of design programs and the ability to work and collaboratively lead teams as well as being innovative, technical result driven leaders and have decided to use our expertise to construct the largest project on the Solana metaverse.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6" data-aos="fade-right" data-aos-delay="200">
+                        <div class="who-we-are-col">
+                            <img src="images/img1.jpeg" alt="">
+                            <h3>LASS</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-aos="fade-right" data-aos-delay="400">
+                        <div class="who-we-are-col who-we-are-col-2">
+                            <img src="images/img2.jpeg" alt="">
+                            <h3>MECCO</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container">
+                <h2 data-aos="fade-right" data-aos-delay="200"><span>Frequently Asked Questions</span></h2>
+                <div class="row">
+                    <div class="faq-col">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item" >
+                              <span class="accordion-header" id="headingOne">
+                                <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                                  What is a MDA?
+                                </button>
+                            </span>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">MDA is an acronym for Mutant Dogs Academy. Story behind a Dog Academy
+                                    that turns out to be an underground Medical Experiment lab where Dogs are
+                                    been experimented on.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <span class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Why dogs?
+                                </button>
+                            </span>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">Dogs been Human best friend! We launching this art to help out stray dogs
+                                    and Dog shelthers to combat ill treatments on dogs..</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <span class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  How many MDA gen?
+                                </button>
+                            </span>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">Two.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <span class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Why Two  MDA gen?
+                                </button>
+                            </span>
+                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">Why Two MDA Gen?
+                                    MDA Gent are the Genesis and Superior Alpha of each pack first introduced to
+                                    Serum X. Gen2 are the rest of the Pack which will be released by Q2 of 2022.
+                                    Gen2 will be available for mint and airdrop to Gen1 MDA holders.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <span class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Why should I mint/hold MDA Gen 1?
+
+                                </button>
+                            </span>
+                              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">Royalties will be 5% for the Tekika collection.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <span class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                      Mint sales?
+                                  </button>
+                              </span>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p class="p-18">50% Proceed after sell out will be directly sent to MDA Utility Wallet to
+                                        finance Utility Projets, 20% will be allocated into Marketing/Promotion wallet
+                                        20% will be allocated back into dev wallet and 10% to DAO community wallet
+                                        for future events.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="accordion-item">
+                              <span class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    When is the minting date?
+                                </button>
+                            </span>
+                              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="p-18">Feb 2022.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <span class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                      Can I stake my MDA?
+                                  </button>
+                              </span>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p class="p-18">MDA staking features will be available on official website but more
+                                        details will be released about this after mint.</p>
+                                  </div>
+                                </div>
+                              </div>
+                             
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community_row">
+            <div class="container">
+                <div class="join-our-col" data-aos="fade-right" data-aos-delay="200">
+                    <div class="join-our-col-child">
+                        <h2>Join the community</h2>
+                        <p class="p-22">Have any queries about the project? Join to get the news as soon as possible and follow our latest announcements.</p>
+                        <a href="discord.gg/2jNyswhqZR" target="_blank"><span>Join our Discord</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="container">
+                <div class="footer-col-parent" data-aos="fade-in" data-aos-delay="200">
+                    <!-- <div class="logo-col">
+                        <a href="/"><img src="images/logo.svg" alt=""></a>
+                        <img src="images/tekika-footer.svg" alt="">
+                    </div> -->
+                    <div class="footer-nav">
+                        <a href="#header-top">Home</a>
+                        
+                        <a href="#roadmap">Roadmap</a>
+                        <a href="#team">Team</a>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://twitter.com/MutantDogsACAD">
+                        <img src="images/iconmonstr-twitter-1.svg" alt="">
+                    </a>
+                    <a href="discord.gg/2jNyswhqZR">
+                        <img src="images/Discord-Logo-Black.svg" alt="">
+                    </a>
+                </div>
+                <div class="copyright-div">
+                    <p>© 2022 MUTANT DOG ACADEMY . All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </div><!-- end fl-page -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0-rc2/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <!--<script src="js/butter.js"></script>-->
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            setTimeout(function(){
+
+                if($(window).width() < 767)
+                {
+                    AOS.init({
+                        duration: 800,
+                        offset: 100
+                    });
+                } else {
+                    AOS.init({
+                        duration: 800,
+                        offset: 200
+                    });
+                }
+
+            }, 400);
+        });
+    </script>
+
+    <script>
+
+
+
+
+		$(document).ready(function(){
+
+
+
+            $('body').addClass('loaded');
+
+			$('.faq-col .accordion-button').click(function(){
+				var check = $(this).closest('.accordion-item').hasClass('active');
+				$('.accordion-item').removeClass('active');
+				if ( check === false) {
+					$(this).closest('.accordion-item').addClass('active');
+				}
+			});
+		});
+
+        $('.tekika-slides').owlCarousel({
+            loop:true,
+            margin:82,
+            nav:false,
+            dots:false,
+            items:3,
+            autoplay: true,
+            stagePadding: 265,
+            responsive : {
+                0:{
+                    items: 1,
+                    margin: 50,
+                    stagePadding: 60
+                },
+                768: {
+                    margin: 30,
+                    stagePadding: 100,
+                },
+                1025: {
+                    margin: 32,
+                    stagePadding: 150,
+                },
+                1200: {
+                    margin: 80,
+                    stagePadding: 200,
+                }
+            }
+        })
+    </script>
+  </body>
+</html>
